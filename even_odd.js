@@ -51,14 +51,14 @@
 
         }
         console.log(addition);
-        var p =  addition;
+         var p =  addition;
 
-       console.log(p);
+       return (p);
       
     }
    //function call of addition
-    addeven(16);
-   
+ 
+   console.log( "Total Grang is : ",addeven(16),"alhamdollah is ddone");
     
   
     

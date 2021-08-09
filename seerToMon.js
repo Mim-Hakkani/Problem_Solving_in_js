@@ -4,7 +4,11 @@ function seerToMon(seer){
 
     if(seer<0)
     {
-        return 'Please input positive Value'
+        return 'Please input positive Value';
+    }
+    else if(typeof(seer)=='string'){
+
+        return 'Invalid input';
     }
 
     else{
@@ -15,7 +19,7 @@ function seerToMon(seer){
 }
 
 // input seer 
-seer = seerToMon(40)
+seer = seerToMon(80)
 
 //output of the required mon
 console.log('The Mon is :',seer );

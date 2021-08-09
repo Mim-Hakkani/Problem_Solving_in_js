@@ -1,10 +1,20 @@
+/*****************************************************************************************************************************
+		
+			problem4. perfect friend
+
+*****************************************************************************************************************************/
 function perfectFriend(fname){
 
    
-   
+    //check it array or not 
+    
+   if(typeof fname != 'object')
+   {
+       return 'not valid ,,pls valided input';
+   }
   
     // validation of no declare of array value 
-    if(fname.length==false){
+    else if(fname.length==false){
 
         return 'please enter some value to array';
     }
@@ -40,7 +50,7 @@ function perfectFriend(fname){
 
 //input friend name to array in string
 
-  var fname =[1,2,3,4,5];
+  var fname =['mim','hakkani','karim','kibria','shipi']
 
   
 
@@ -50,3 +60,5 @@ function perfectFriend(fname){
   //finally show the perfect friend name 
 
   console.log('my perfect friend is : ',best_friend);
+
+

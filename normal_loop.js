@@ -17,3 +17,19 @@ for(let j=6; j>=1;j--)
     console.log(j);
 }
 console.log(summtion);
+
+//same work using function
+
+function sumi(num){
+    if(num==1)
+    {
+        return 1;
+    }
+
+   return sumi(num-1)+num;
+
+   
+
+}
+
+console.log(sumi(6));

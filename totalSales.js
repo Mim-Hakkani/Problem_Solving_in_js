@@ -1,13 +1,26 @@
+/*********************************************************************************
+
+		problem 2 :totalSales
+
+*****************************************************************************************/
+
 function totalSales(shirt,pants,shooe){
 
-    /*
-          check input error validation 
-    
-    */
+  
+    // positive number quantity
 
     if(shirt<0 || pants<0 || shooe<0){
         return ('please input the positive number of quantity');
     }
+
+    // string value check
+
+    else if(typeof(shirt)=='string' || typeof(pants)=='string' || typeof(shooe)=='string')
+    {
+        return 'string input ,,, its not valid ! '
+    }
+
+     // no sells in the shop 
 
     else if(shirt==0 && pants ==0 && shooe ==0)
     {
@@ -30,7 +43,7 @@ function totalSales(shirt,pants,shooe){
 
 // quantity of each cloths 
 
-var shirt_quantity  = 1;
+var shirt_quantity  = 10;
 var pants_quantity  = 1;
 var shooe_quantity  = 1;
 

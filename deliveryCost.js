@@ -66,7 +66,7 @@ else{
 }
 
 //quantity of tshirt
-const tshirt_quantity     =205 ;
+const tshirt_quantity     =450 ;
 
 //function call and parameter pass
 const total_delevery_cost = deliveryCost(tshirt_quantity);
